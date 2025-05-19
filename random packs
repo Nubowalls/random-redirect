@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirigiendo...</title>
+    <script>
+      const links = [
+        "https://drive.google.com/drive/folders/1deo3ARMh8Ij5SSO_88CcQDTi7RoUogNK?usp=drive_link",
+        "https://drive.google.com/drive/folders/1n_TsfJYokTC74Yp27tMuScLu-Q3299NH?usp=drive_link",
+        "https://drive.google.com/drive/folders/1qJ47UCndAedx9dtEC-Uxzeqq-0KE_QIv?usp=drive_link"
+      ];
+      const randomLink = links[Math.floor(Math.random() * links.length)];
+      window.location.href = randomLink;
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a tu fondo personalizado...</p>
+  </body>
+</html>
