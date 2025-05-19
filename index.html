@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirigiendo...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    const urls = [
+      "https://drive.google.com/drive/folders/1deo3ARMh8Ij5SSO_88CcQDTi7RoUogNK",
+      "https://drive.google.com/drive/folders/1n_TsfJYokTC74Yp27tMuScLu-Q3299NH",
+      "https://drive.google.com/drive/folders/1qJ47UCndAedx9dtEC-Uxzeqq-0KE_QIv"
+    ];
+    const randomIndex = Math.floor(Math.random() * urls.length);
+    window.location.href = urls[randomIndex];
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a tu fondo aleatorio...</p>
+</body>
+</html>
