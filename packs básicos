@@ -1,1 +1,25 @@
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirigiendo...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    const urls = [
+      "https://drive.google.com/file/d/1CKXskn-k9gZwaIp8BcqSKWnaoq4weST4/view?usp=sharing",
+      "https://drive.google.com/file/d/1ehl7V80o9VQgBNrme27oVkqHxrE4N9xY/view?usp=sharing",
+      "https://drive.google.com/file/d/1UnUpensD3M5503jT13mVzSMAA8wCEIyS/view?usp=sharing",
+      "https://drive.google.com/file/d/1yNEi1zUzUgjw3CO0mQHSehLgJwqkaVUV/view?usp=sharing",
+      "https://drive.google.com/file/d/1WsCnmp-kaY32RJZAsc5N-w2ggjpqNZeD/view?usp=sharing",
+      "https://drive.google.com/file/d/1VP0eC34DXr4N8utxT0TdRPOV5-dqnUtd/view?usp=sharing",
+      "https://drive.google.com/file/d/1VOSCXrTG4NyIo30kTxRirXFFgrjvIWsc/view?usp=sharing",
+      "https://drive.google.com/file/d/1r_uST7AuDIbQ2mnPCgeMgekxLrwrtnVj/view?usp=sharing"
+    ];
+    const randomIndex = Math.floor(Math.random() * urls.length);
+    window.location.href = urls[randomIndex];
+  </script>
+</head>
+<body>
+  <p>Redirigiendo a tu fondo aleatorio...</p>
+</body>
+</html>
